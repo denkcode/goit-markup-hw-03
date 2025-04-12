@@ -161,7 +161,7 @@ gap: 40px;
 
 .section-advantages {
     margin-top: 120px;
-    padding: 120 0;
+    padding: 120px 0;
 }
 
 .visually-hidden {
@@ -213,12 +213,10 @@ color: #434455;
 
 .section-team {
     background-color: #f4f4fd;
-    padding-bottom: 120px;
     padding: 120px 0;
 }
 
 .title-team {
-padding-top: 120px;
 margin-bottom: 72px;
 font-weight: 500;
 font-size: 36px;
@@ -235,6 +233,10 @@ align-items: center;
 gap: 24px;
 }
 
+.team-list li {
+    width: calc((100% - 72px) / 4);
+}
+
 .team-item {
 background-color: #fff;
 display: flex;
@@ -247,8 +249,7 @@ padding: 0px 0px 32px 0px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 width: 264px;
 height: 380px;
-margin-right: 24px;
-width: calc((100% - 72px) / 4);
+margin-right: 0;
 }
 
 .img-team {
@@ -270,6 +271,7 @@ padding-top: 32px;
 padding-right: 16px;
 padding-bottom: 32px;
 padding-left: 16px;
+padding: 32px 0
 }
 
 .team-name {
@@ -307,7 +309,6 @@ text-transform: capitalize;
 
 
 .portfolio-list {
-padding-top: 72px;
 display: flex;
 align-items: center;
 flex-direction: row;
@@ -317,10 +318,7 @@ padding-left: 0;
 max-width: 1128px;
 height: 1000px;
 margin: 0;
-
-
 }
-
 
 .container-portfolio {
 display: flex;
@@ -383,7 +381,7 @@ gap: 16px;
 color: #f4f4fd;
 }
 
-.logo {
+.logo .footer-logo {
 margin-bottom: 16px;
 display: inline-block;
 }
